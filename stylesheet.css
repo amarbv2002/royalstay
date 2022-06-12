@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Koulen', cursive !important; 
+    letter-spacing: 1.5px;
+    position: relative;
+}
+
+a {
+    transition: 0.3s !important;
+}
+
+.bg-black2 {
+    background-color: #04091E;
+}
+
+.text-yellow {
+    color: #F3C300;
+}
+
+.bg-yellow {
+    color: #04091E !important;
+    background-color: #F3C300 !important;
+    border: 2px solid #F3C300 !important;
+}
+
+.bg-yellow-outline {
+    border: 2px solid #F3C300 !important;
+}
+
+.text-gray {
+    color: rgb(155, 155, 155);
+}
+
+.nav-item a {
+    color: white;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.nav-item a:hover {
+    color: #F3C300 !important;
+}
+
+.navbar a {
+    margin-top: -10px;
+}
+
+@media (max-width: 992px) {
+
+    nav i {
+        font-size: 1.2em;
+        color: white;
+    }
+
+    nav ul li a  {
+        text-align: center;
+    }
+
+    .nav-item a:hover {
+        color: #F3C300 !important;
+    }
+
+    .navbar a {
+        margin-top: 0px;
+    }
+    
+    .navbar-nav {
+        margin-top: 20px;
+        background-color: #04091E;
+    }
+}
+
+
+.nav-active {
+    transition: 0.4s ease-in-out;
+    background-color:#04091E;
+    box-shadow: 0px 0px 20px black;
+}
+
+.slider {
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.6),rgba(100, 95, 16, 0.6)) , url(img/slider-bg.jpg);
+    padding: 20em 2em 18em 2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.slider-content p {
+    font-size: 1.1em;
+    letter-spacing: 0.2px;
+}
+
+.slider-content a {
+    font-size: 1.3em;
+    color: white;
+}
+
+.slider-content a:hover {
+    background-color: #F3C300 !important;
+    color: #04091E !important;
+}
+
+.book {
+    padding: 3em 2em;
+}
+
+.book .bg-black2 {
+    color: white;
+    padding: 2em 1em;
+}
+
+.book input[type=submit] {
+    transition: 0.4s;
+}
+
+.book input[type=submit]:hover {
+    background-color: white !important;
+}
+
+.about {
+    padding: 6em 2em;
+}
+
+.about p {
+    letter-spacing: 0.2px;
+}
+
+.about a {
+    font-size: 1.2em;
+}
+
+.about a:hover {
+    background-color: white !important;
+}
+
+.accomo {
+    padding: 6em 2em;
+}
+
+.accomo p {
+    letter-spacing: 0.2px;   
+}
+
+.accomo .card img {
+    border-radius: 10px !important;
+}
+
+.accomo .card {
+    transition: transform .5s;
+}
+
+.accomo .card:hover {
+    transform: scale(1.1);
+}
+
+.accomo a {
+    font-size: 1.2em;
+}
+
+.accomo a:hover {
+    background-color: white !important;
+}
+
+.facilities {
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(img/faci-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 7em 2em;
+}
+
+@media (max-width: 1400px) {
+    .faci-inner {
+        width: 17rem !important;
+    }  
+}
+
+@media (max-width: 992px) {
+    .faci-inner {
+        width: 20rem !important;
+    }  
+}
+
+@media (max-width: 768px) {
+    .faci-inner {
+        width: 100% !important;
+    }  
+}
+
+.faci-inner {
+    width: 23rem;
+    background-color: rgb(255, 255, 255, 0.15);
+    padding: 2em;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.faci-inner:hover {
+    background-color: transparent;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+.faci-inner i {
+    color: #F3C300;
+    font-size: 3em;
+}
+
+.faci-inner p {
+    letter-spacing: 0.2px;
+    line-height: 19px;
+}
+
+.blog {
+    padding: 5em 2em;
+}
+
+.blog p {
+    letter-spacing: 0.2px;
+}
+
+.blog a {
+    border: 1px solid rgba(4, 9, 30, 0.349);
+    margin: 10px 0px;
+    transition: 0.4s;
+}
+
+.blog a:hover {
+    background-color: #F3C300 !important;
+}
+
+.contact {
+    padding: 0em 2em 3em 2em;
+}
+
+.contact p {
+    letter-spacing: 0.2px;
+}
+
+.contact i {
+    font-size: 2.5em;
+    color: #F3C300;
+}
+
+.footer {
+    padding: 4em 2em;
+    background-color: #04091E;
+}
+
+.footer button:hover {
+    background-color: #04091E !important;
+    color: #FFF !important;
+}
+
+.footer hr {
+    color: white;
+}
+
+.footer p {
+    letter-spacing: 0.2px;
+}
+
+.footer a , .footer span{
+    text-decoration: none;
+    color: #F3C300;
+}
+
+.footer a:hover {
+    color: white !important;
+    text-decoration: underline;
+}
